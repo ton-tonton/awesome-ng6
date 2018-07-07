@@ -24,4 +24,4 @@ jobs:
             - node_modules
       - run:
           name: Testing
-          command: npm run test --watch=false
+          command: npx ng test --watch=false
